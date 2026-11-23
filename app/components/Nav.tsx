@@ -18,7 +18,7 @@ export default function Nav() {
       <nav
         className="w-full max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
         style={{
-          background: scrolled ? 'rgba(26,35,64,0.95)' : 'transparent',
+          background: scrolled ? 'rgba(15,46,38,0.95)' : 'transparent',
           backdropFilter: scrolled ? 'blur(20px)' : 'none',
           borderBottom: scrolled ? '1px solid rgba(255,255,255,0.08)' : 'none',
           transition: 'background 0.3s ease, border-color 0.3s ease',
@@ -32,14 +32,14 @@ export default function Nav() {
               width: '32px',
               height: '32px',
               borderRadius: '8px',
-              background: 'linear-gradient(135deg, #3D5A8A 0%, #6B8FBF 100%)',
+              background: 'linear-gradient(135deg, #1A7A52 0%, #3EC98A 100%)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
             }}
           >
             <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 800, fontSize: '0.9rem', color: 'white', lineHeight: 1 }}>
-              V
+              N
             </span>
           </div>
           <span
@@ -51,7 +51,7 @@ export default function Nav() {
               letterSpacing: '-0.01em',
             }}
           >
-            Verdante Finance
+            Nest Builder Finance
           </span>
         </Link>
 
@@ -102,7 +102,7 @@ export default function Nav() {
             href="/talk-to-sales"
             className="hidden md:inline-flex items-center gap-2"
             style={{
-              background: '#3D5A8A',
+              background: '#1A7A52',
               color: 'white',
               fontSize: '0.875rem',
               fontWeight: 600,
@@ -110,8 +110,8 @@ export default function Nav() {
               borderRadius: '8px',
               transition: 'background 0.2s',
             }}
-            onMouseEnter={e => { e.currentTarget.style.background = '#4A6FA0'; }}
-            onMouseLeave={e => { e.currentTarget.style.background = '#3D5A8A'; }}
+            onMouseEnter={e => { e.currentTarget.style.background = '#228A60'; }}
+            onMouseLeave={e => { e.currentTarget.style.background = '#1A7A52'; }}
           >
             Get Started
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -149,7 +149,7 @@ export default function Nav() {
         <div
           className="absolute top-20 left-4 right-4 rounded-2xl p-6 md:hidden"
           style={{
-            background: 'rgba(26,35,64,0.97)',
+            background: 'rgba(15,46,38,0.97)',
             backdropFilter: 'blur(20px)',
             border: '1px solid rgba(255,255,255,0.1)',
           }}
@@ -176,7 +176,7 @@ export default function Nav() {
           <Link
             href="/talk-to-sales"
             className="block mt-4 text-center py-3 rounded-xl"
-            style={{ background: '#3D5A8A', color: 'white', fontWeight: 600 }}
+            style={{ background: '#1A7A52', color: 'white', fontWeight: 600 }}
             onClick={() => setMobileOpen(false)}
           >
             Get Started →
