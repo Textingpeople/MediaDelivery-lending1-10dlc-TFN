@@ -24,7 +24,7 @@ export default function ForEmployersPage() {
             Verdante Finance
           </h1>
           <p style={{ color: 'rgba(245,243,235,0.65)', fontSize: '1.1rem', lineHeight: 1.8, maxWidth: '520px', margin: '0 auto 2.5rem' }}>
-            Trusted by forward-thinking companies to deliver measurable impact in employee financial wellness.
+            Built to help employers support their teams&apos; financial health with clear, practical guidance.
           </p>
           <Link href="/talk-to-sales" className="btn-primary">
             Get Started
@@ -114,12 +114,12 @@ export default function ForEmployersPage() {
                 body: 'Support every financial journey—budgeting, investing, planning, and more—with a single, unified platform. Verdante Finance meets employees where they are, no matter their income, location, or life stage.',
               },
               {
-                label: 'Global Access and Equity',
-                body: 'Offer financial support that scales. Verdante Finance is built to serve teams in 70+ countries and 80+ languages, with culturally relevant guidance and localized experiences for true financial equity.',
+                label: 'Built for Every Workforce',
+                body: 'Offer financial support that scales with your team. Verdante Finance delivers clear, practical guidance for employees at every income and life stage.',
               },
               {
-                label: 'Flexible Pricing, Proven ROI',
-                body: 'Get financial wellness that works—and works for your budget. Our pricing model scales with your team, delivering up to $2.39 in ROI for every $1 invested.',
+                label: 'Flexible Pricing',
+                body: 'Get financial wellness that works for your budget. Our pricing scales with the size of your team.',
               },
               {
                 label: 'Dedicated Success Team',

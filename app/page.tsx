@@ -1,32 +1,9 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-
-// ─── Animated Counter ──────────────────────────────────────────────────────────
-function Counter({ target, prefix = '', suffix = '' }: { target: number; prefix?: string; suffix?: string }) {
-  const [count, setCount] = useState(0);
-  const ref = useRef<HTMLSpanElement>(null);
-  useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        let start = 0;
-        const step = target / 60;
-        const timer = setInterval(() => {
-          start += step;
-          if (start >= target) { setCount(target); clearInterval(timer); }
-          else setCount(Math.floor(start));
-        }, 16);
-        observer.disconnect();
-      }
-    }, { threshold: 0.5 });
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, [target]);
-  return <span ref={ref}>{prefix}{count.toLocaleString()}{suffix}</span>;
-}
 
 // ─── App UI: Dashboard Mockup ──────────────────────────────────────────────────
 function DashboardMockup() {
@@ -323,20 +300,6 @@ export default function HomePage() {
                 For Employers
               </Link>
             </div>
-
-            {/* Social proof */}
-            <div className="flex items-center gap-6 mt-12">
-              {[
-                { value: '10,000+', label: 'Employees served' },
-                { value: '94%', label: 'Satisfaction rate' },
-                { value: '$2.39', label: 'ROI per $1 invested' },
-              ].map(stat => (
-                <div key={stat.label}>
-                  <p style={{ color: 'white', fontWeight: 700, fontSize: '1.25rem', lineHeight: 1 }}>{stat.value}</p>
-                  <p style={{ color: 'rgba(255,255,255,0.45)', fontSize: '0.75rem', marginTop: '0.25rem' }}>{stat.label}</p>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
@@ -408,7 +371,7 @@ export default function HomePage() {
             Verdante Finance
           </h2>
           <p style={{ color: 'rgba(24,37,27,0.6)', fontSize: '1.05rem', lineHeight: 1.8, maxWidth: '520px', margin: '0 auto' }}>
-            Trusted by forward-thinking companies to deliver measurable impact in employee financial wellness.
+            Built to help employers support their teams&apos; financial health with clear, practical guidance.
           </p>
         </div>
       </section>
@@ -423,12 +386,12 @@ export default function HomePage() {
                 body: 'Support every financial journey—budgeting, investing, planning, and more—with a single, unified platform. Verdante Finance meets employees where they are, no matter their income, location, or life stage.',
               },
               {
-                label: 'Global Access and Equity',
-                body: 'Offer financial support that scales. Verdante Finance is built to serve teams in 70+ countries and 80+ languages, with culturally relevant guidance and localized experiences for true financial equity.',
+                label: 'Built for Every Workforce',
+                body: 'Offer financial support that scales with your team. Verdante Finance delivers clear, practical guidance for employees at every income and life stage.',
               },
               {
-                label: 'Flexible Pricing, Proven ROI',
-                body: 'Get financial wellness that works—and works for your budget. Our pricing model scales with your team, delivering up to $2.39 in ROI for every $1 invested.',
+                label: 'Flexible Pricing',
+                body: 'Get financial wellness that works for your budget. Our pricing scales with the size of your team.',
               },
               {
                 label: 'Dedicated Success Team',
