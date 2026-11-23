@@ -83,7 +83,7 @@ function VerifyContent() {
     >
       <div
         className="w-full max-w-sm rounded-2xl overflow-hidden"
-        style={{ background: 'white', boxShadow: '0 20px 60px rgba(15,46,38,0.12)' }}
+        style={{ background: 'white', boxShadow: '0 20px 60px rgba(26,35,64,0.12)' }}
       >
         <div style={{ height: '6px', background: 'var(--olive)' }} />
 
@@ -131,8 +131,8 @@ function VerifyContent() {
                 onBlur={() => setIsFocused(false)}
                 className="w-full px-4 py-3 rounded-xl text-sm mb-4"
                 style={{
-                  background: 'rgba(10,31,26,0.04)',
-                  border: `1px solid ${isFocused ? 'var(--olive)' : 'rgba(10,31,26,0.12)'}`,
+                  background: 'rgba(24,37,27,0.04)',
+                  border: `1px solid ${isFocused ? 'var(--olive)' : 'rgba(24,37,27,0.12)'}`,
                   color: 'var(--charcoal)',
                   outline: 'none',
                   fontFamily: 'Inter, sans-serif',
@@ -161,9 +161,9 @@ function VerifyContent() {
 
           <p
             className="font-mono-label mt-8"
-            style={{ color: '#6B7280', fontSize: '0.62rem' }}
+            style={{ color: 'rgba(24,37,27,0.35)', fontSize: '0.62rem' }}
           >
-            Secured by Nest Builder Finance
+            Secured by Verdante Finance
           </p>
         </div>
       </div>
