@@ -100,6 +100,21 @@ export default function TermsPage() {
                 </div>
 
                 <div>
+                  <p className="font-mono-label mb-2" style={{ color: 'var(--olive)', fontSize: '0.6rem' }}>Sample Messages</p>
+                  <p style={{ fontWeight: 600, color: 'var(--forest)', marginBottom: '0.5rem' }}>Account Notifications</p>
+                  <div className="space-y-1 mb-4">
+                    <p>1. Verdante Finance: You&apos;re signed up for account alerts from your employer&apos;s financial wellness program. Msg frequency varies. Msg & data rates may apply. Reply HELP for help, STOP to opt out.</p>
+                    <p>2. Verdante Finance: You reached a savings goal milestone! See your progress at verdantefinance.com. Reply STOP to opt out.</p>
+                    <p>3. Verdante Finance: Your weekly spending summary is ready. Review it at verdantefinance.com. Reply STOP to opt out.</p>
+                  </div>
+                  <p style={{ fontWeight: 600, color: 'var(--forest)', marginBottom: '0.5rem' }}>Promotional</p>
+                  <div className="space-y-1">
+                    <p>4. Verdante Finance: New in your financial wellness program: a debt payoff planner. Try it at verdantefinance.com. Reply STOP to opt out.</p>
+                    <p>5. Verdante Finance: This month&apos;s money tip: building a 3-month emergency fund. Read more at verdantefinance.com. Reply STOP to opt out.</p>
+                  </div>
+                </div>
+
+                <div>
                   <p className="font-mono-label mb-2" style={{ color: 'var(--olive)', fontSize: '0.6rem' }}>Consent</p>
                   <p>
                     Opting in to SMS is entirely voluntary and is not required to use the Service. Consent is not a condition of purchasing any products or services. You may opt in to one or both message types independently.
