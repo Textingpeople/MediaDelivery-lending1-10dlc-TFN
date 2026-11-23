@@ -30,6 +30,9 @@ export default function Footer() {
             <p style={{ color: 'rgba(245,243,235,0.45)', fontSize: '0.85rem', lineHeight: '1.7', maxWidth: '280px' }}>
               Helping companies build financially secure, confident, and resilient workforces.
             </p>
+            <p style={{ color: 'rgba(245,243,235,0.35)', fontSize: '0.78rem', lineHeight: '1.7', maxWidth: '280px', marginTop: '0.75rem' }}>
+              9 Johnston Dr, Bloomsbury, NJ 08804, United States · <a href="tel:+19083998307" style={{ color: 'inherit' }}>(908) 399-8307</a>
+            </p>
           </div>
 
           {/* Product */}
@@ -87,7 +90,7 @@ export default function Footer() {
         <div style={{ borderTop: '1px solid rgba(245,243,235,0.1)', paddingTop: '2rem' }}>
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="font-mono-label" style={{ color: 'rgba(245,243,235,0.3)', fontSize: '0.65rem' }}>
-              © {new Date().getFullYear()} Verdante Finance. All rights reserved.
+              © {new Date().getFullYear()} Media Delivery Solutions LLC, d/b/a Verdante Finance. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <p className="font-mono-label" style={{ color: 'rgba(245,243,235,0.3)', fontSize: '0.65rem' }}>

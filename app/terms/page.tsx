@@ -34,7 +34,7 @@ export default function TermsPage() {
             {/* Intro */}
             <div>
               <p>
-                These Terms of Service ("Terms") govern your access to and use of Verdante Finance's AI-powered financial wellness platform, website at <strong>verdantefinance.com</strong>, and related services (collectively, the "Service"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, you may not use the Service.
+                These Terms of Service ("Terms") govern your access to and use of the AI-powered financial wellness platform, website at <strong>verdantefinance.com</strong>, and related services (collectively, the "Service") operated by Media Delivery Solutions LLC, a Wyoming limited liability company, d/b/a Verdante Finance. By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, you may not use the Service.
               </p>
             </div>
 
@@ -223,7 +223,9 @@ export default function TermsPage() {
                 For questions about these Terms, please contact us:
               </p>
               <div className="mt-3 space-y-1">
-                <p><strong>Verdante Finance</strong></p>
+                <p><strong>Media Delivery Solutions LLC</strong>, a Wyoming limited liability company, d/b/a Verdante Finance</p>
+                <p>Address: 9 Johnston Dr, Bloomsbury, NJ 08804, United States</p>
+                <p>Phone: <a href="tel:+19083998307" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>(908) 399-8307</a></p>
                 <p>Email: <a href="mailto:support@verdantefinance.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>support@verdantefinance.com</a></p>
                 <p>Website: <a href="https://verdantefinance.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>verdantefinance.com</a></p>
               </div>

@@ -220,10 +220,10 @@ export default function ContactPage() {
                     Phone
                   </p>
                   <a
-                    href="tel:+18005551234"
+                    href="tel:+19083998307"
                     style={{ color: 'var(--forest)', fontWeight: 600, fontSize: '0.95rem' }}
                   >
-                    (800) 555-1234
+                    (908) 399-8307
                   </a>
                 </div>
 
@@ -233,7 +233,7 @@ export default function ContactPage() {
                     Address
                   </p>
                   <p style={{ color: 'var(--charcoal)', fontSize: '0.9rem', lineHeight: 1.6 }}>
-                    1200 Financial Way Ste 400<br />Austin, TX 78701<br />United States
+                    9 Johnston Dr<br />Bloomsbury, NJ 08804<br />United States
                   </p>
                 </div>
 

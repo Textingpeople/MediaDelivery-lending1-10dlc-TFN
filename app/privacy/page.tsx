@@ -34,7 +34,7 @@ export default function PrivacyPage() {
             {/* Intro */}
             <div>
               <p>
-                Verdante Finance ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered financial wellness platform and website at <strong>verdantefinance.com</strong>. By using our service, you agree to the collection and use of information in accordance with this policy.
+                Media Delivery Solutions LLC, a Wyoming limited liability company, d/b/a Verdante Finance ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered financial wellness platform and website at <strong>verdantefinance.com</strong>. By using our service, you agree to the collection and use of information in accordance with this policy.
               </p>
             </div>
 
@@ -193,7 +193,9 @@ export default function PrivacyPage() {
                 If you have questions about this Privacy Policy or our data practices, please contact us:
               </p>
               <div className="mt-3 space-y-1">
-                <p><strong>Verdante Finance</strong></p>
+                <p><strong>Media Delivery Solutions LLC</strong>, a Wyoming limited liability company, d/b/a Verdante Finance</p>
+                <p>Address: 9 Johnston Dr, Bloomsbury, NJ 08804, United States</p>
+                <p>Phone: <a href="tel:+19083998307" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>(908) 399-8307</a></p>
                 <p>Email: <a href="mailto:support@verdantefinance.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>support@verdantefinance.com</a></p>
                 <p>Website: <a href="https://verdantefinance.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>verdantefinance.com</a></p>
               </div>
