@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Verdant Finance — Financial Wellness for Every Employee",
-  description: "Verdant Finance is an AI-powered financial wellness platform that helps companies support their employees' financial security, confidence, and long-term wellbeing.",
+  title: "Verdante Finance — Financial Wellness for Every Employee",
+  description: "Verdante Finance is an AI-powered financial wellness platform that helps companies support their employees' financial security, confidence, and long-term wellbeing.",
   keywords: "employee financial wellness, financial wellbeing, workplace financial benefits, AI financial advisor, employee benefits, financial security",
   openGraph: {
-    title: "Verdant Finance — Financial Wellness for Every Employee",
+    title: "Verdante Finance — Financial Wellness for Every Employee",
     description: "AI-powered financial wellness that meets employees where they are. Budgeting, planning, investing — one platform for every financial journey.",
-    siteName: "Verdant Finance",
+    siteName: "Verdante Finance",
     locale: "en_US",
     type: "website",
   },

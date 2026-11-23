@@ -204,10 +204,10 @@ export default function ContactPage() {
                     Email
                   </p>
                   <a
-                    href="mailto:support@verdantfinance.com"
+                    href="mailto:support@verdantefinance.com"
                     style={{ color: 'var(--forest)', fontWeight: 600, fontSize: '0.95rem' }}
                   >
-                    support@verdantfinance.com
+                    support@verdantefinance.com
                   </a>
                   <p style={{ color: 'rgba(24,37,27,0.45)', fontSize: '0.82rem', marginTop: '0.3rem' }}>
                     Response within 1–2 business days

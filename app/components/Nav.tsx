@@ -51,7 +51,7 @@ export default function Nav() {
               letterSpacing: '-0.01em',
             }}
           >
-            Verdant Finance
+            Verdante Finance
           </span>
         </Link>
 

@@ -123,7 +123,7 @@ function ChatMockup() {
           </svg>
         </div>
         <div>
-          <p style={{ fontWeight: 600, fontSize: '0.85rem', color: 'var(--forest)' }}>Verdant AI</p>
+          <p style={{ fontWeight: 600, fontSize: '0.85rem', color: 'var(--forest)' }}>Verdante AI</p>
           <div className="flex items-center gap-1">
             <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
             <p className="font-mono-label" style={{ color: 'var(--olive)', fontSize: '0.55rem' }}>Online</p>
@@ -280,7 +280,7 @@ export default function HomePage() {
                 marginBottom: '2.5rem',
               }}
             >
-              Verdant Finance is an AI-powered financial wellness platform that helps your workforce budget, plan, and build lasting financial confidence.
+              Verdante Finance is an AI-powered financial wellness platform that helps your workforce budget, plan, and build lasting financial confidence.
             </p>
 
             {/* CTAs */}
@@ -372,7 +372,7 @@ export default function HomePage() {
                   </svg>
                 ),
                 title: 'Built for every employee',
-                desc: 'From entry-level to executive — Verdant Finance meets employees where they are, at every income and life stage.',
+                desc: 'From entry-level to executive — Verdante Finance meets employees where they are, at every income and life stage.',
               },
             ].map((pillar, i) => (
               <div key={i} className="flex items-start gap-4">
@@ -400,12 +400,12 @@ export default function HomePage() {
       <section className="py-28 px-6" style={{ background: 'var(--ivory)' }}>
         <div className="max-w-3xl mx-auto text-center">
           <p className="font-mono-label mb-8" style={{ color: 'var(--olive)', fontSize: '0.65rem' }}>
-            Why Verdant Finance
+            Why Verdante Finance
           </p>
           <h2 className="headline-lg mb-8" style={{ color: 'var(--forest)' }}>
             <em className="italic-accent">Why</em> employers choose
             <br />
-            Verdant Finance
+            Verdante Finance
           </h2>
           <p style={{ color: 'rgba(24,37,27,0.6)', fontSize: '1.05rem', lineHeight: 1.8, maxWidth: '520px', margin: '0 auto' }}>
             Trusted by forward-thinking companies to deliver measurable impact in employee financial wellness.
@@ -420,11 +420,11 @@ export default function HomePage() {
             {[
               {
                 label: 'One Platform for Every Employee',
-                body: 'Support every financial journey—budgeting, investing, planning, and more—with a single, unified platform. Verdant Finance meets employees where they are, no matter their income, location, or life stage.',
+                body: 'Support every financial journey—budgeting, investing, planning, and more—with a single, unified platform. Verdante Finance meets employees where they are, no matter their income, location, or life stage.',
               },
               {
                 label: 'Global Access and Equity',
-                body: 'Offer financial support that scales. Verdant Finance is built to serve teams in 70+ countries and 80+ languages, with culturally relevant guidance and localized experiences for true financial equity.',
+                body: 'Offer financial support that scales. Verdante Finance is built to serve teams in 70+ countries and 80+ languages, with culturally relevant guidance and localized experiences for true financial equity.',
               },
               {
                 label: 'Flexible Pricing, Proven ROI',
@@ -485,7 +485,7 @@ export default function HomePage() {
               {
                 num: '02',
                 title: 'Understand',
-                desc: 'Verdant AI analyzes spending patterns, debt, savings gaps, and opportunities — giving each employee a clear picture of where they stand.',
+                desc: 'Verdante AI analyzes spending patterns, debt, savings gaps, and opportunities — giving each employee a clear picture of where they stand.',
                 icon: (
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <circle cx="11" cy="11" r="8" />
@@ -609,7 +609,7 @@ export default function HomePage() {
                 Ask anything. Get real answers.
               </p>
               <p style={{ color: 'rgba(24,37,27,0.55)', fontSize: '0.9rem', lineHeight: 1.75, marginBottom: '2rem' }}>
-                Verdant AI understands each employee&apos;s unique financial situation and gives personalized, actionable guidance — not generic advice.
+                Verdante AI understands each employee&apos;s unique financial situation and gives personalized, actionable guidance — not generic advice.
               </p>
               <div className="animate-float-delay">
                 <ChatMockup />
@@ -633,7 +633,7 @@ export default function HomePage() {
                 <em className="italic-accent">Without more overhead.</em>
               </h2>
               <p style={{ color: 'rgba(245,243,235,0.65)', fontSize: '1rem', lineHeight: 1.8, marginBottom: '2.5rem' }}>
-                Launch a financial wellness benefit your employees will actually use. Verdant Finance handles everything — from onboarding to engagement — while you see aggregate impact metrics.
+                Launch a financial wellness benefit your employees will actually use. Verdante Finance handles everything — from onboarding to engagement — while you see aggregate impact metrics.
               </p>
               <div className="space-y-5">
                 {[
@@ -751,7 +751,7 @@ export default function HomePage() {
               margin: '0 auto 2.5rem',
             }}
           >
-            Join companies building financially secure, confident, and resilient workforces with Verdant Finance.
+            Join companies building financially secure, confident, and resilient workforces with Verdante Finance.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Link href="/talk-to-sales" className="btn-forest">
